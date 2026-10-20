@@ -1,0 +1,14 @@
+{
+  "name": "n8n-cloud-to-local",
+  "version": "1.0.0",
+  "description": "Move n8n workflows from n8n Cloud to a free self-hosted n8n in Docker without losing them.",
+  "license": "MIT",
+  "author": "Kreyansh Arora Dhariwal",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "backup": "node backup.js",
+    "restore": "node restore.js",
+    "relink": "node relink-credentials.js"
+  }
+}
